@@ -223,7 +223,7 @@ body {
 
   <div id="no-image-msg" style="display:none;">
     No image URL provided. Set <code>imageUrl</code> in the widget URL, e.g.<br>
-    <code>widget.html?imageUrl=https://example.com/image.jpg</code>
+    <code>widget.html?imageUrl=https://i.imgur.com/3GkBEC8.png</code>
   </div>
 
   <div id="toolbar">
