@@ -223,7 +223,7 @@ body {
 
   <div id="no-image-msg" style="display:none;">
     No image URL provided. Set <code>imageUrl</code> in the widget URL, e.g.<br>
-    <code>widget.html?imageUrl=https://i.imgur.com/3GkBEC8.png</code>
+    <code>widget.html?imageUrl=https://example.com/image.jpg</code>
   </div>
 
   <div id="toolbar">
@@ -267,7 +267,7 @@ function getParam(name) {
   return results ? decodeURIComponent(results[1]) : null;
 }
 
-var imageUrl = getParam('imageUrl') || getParam('src') || getParam('image') || '';
+var imageUrl = getParam('imageUrl') || getParam('src') || getParam('image') || 'https://i.imgur.com/3GkBEC8.png';
 var zonesParam = getParam('zones') || '';
 
 // ── State ─────────────────────────────────────────────────────────
